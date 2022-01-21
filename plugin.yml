@@ -1,0 +1,15 @@
+name: MapManagerFix
+version: 0.0
+description: If the server is using a fork of Paper, then MapManager will not recognize it. This plugin fixes that issue.
+api-version: 1.15
+load: STARTUP
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.MapManagerFix.MapManagerFixPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: [MapManager]
